@@ -1,1 +1,0 @@
-/usr/bin/c++       CMakeFiles/testProto.dir/setValue.cpp.o CMakeFiles/testProto.dir/test.pb.cc.o  -o testProto -rdynamic -lprotobuf -lprotoc 

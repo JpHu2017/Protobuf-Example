@@ -1,1 +1,0 @@
-/home/cvrsg/JpHu/Github/ProtoExample/build/CMakeFiles/testProto.dir
