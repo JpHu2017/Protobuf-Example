@@ -1,5 +1,5 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/testProto.dir/parse.cpp.o"
+  "CMakeFiles/testProto.dir/setValue.cpp.o"
   "CMakeFiles/testProto.dir/test.pb.cc.o"
   "testProto.pdb"
   "testProto"

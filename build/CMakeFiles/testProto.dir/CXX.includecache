@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/cvrsg/JpHu/Github/ProtoExample/parse.cpp
+/home/cvrsg/JpHu/Github/ProtoExample/setValue.cpp
 test.pb.h
 /home/cvrsg/JpHu/Github/ProtoExample/test.pb.h
 stdlib.h
@@ -26,28 +26,6 @@ cstdio
 google/protobuf/text_format.h
 -
 google/protobuf/io/zero_copy_stream_impl.h
--
-
-/home/cvrsg/JpHu/Github/ProtoExample/test.pb.cc
-test.pb.h
-/home/cvrsg/JpHu/Github/ProtoExample/test.pb.h
-algorithm
--
-google/protobuf/stubs/common.h
--
-google/protobuf/stubs/once.h
--
-google/protobuf/io/coded_stream.h
--
-google/protobuf/wire_format_lite_inl.h
--
-google/protobuf/descriptor.h
--
-google/protobuf/generated_message_reflection.h
--
-google/protobuf/reflection_ops.h
--
-google/protobuf/wire_format.h
 -
 
 /home/cvrsg/JpHu/Github/ProtoExample/test.pb.h

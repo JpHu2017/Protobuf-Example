@@ -49,28 +49,28 @@ include CMakeFiles/testProto.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/testProto.dir/flags.make
 
-CMakeFiles/testProto.dir/parse.cpp.o: CMakeFiles/testProto.dir/flags.make
-CMakeFiles/testProto.dir/parse.cpp.o: ../parse.cpp
+CMakeFiles/testProto.dir/setValue.cpp.o: CMakeFiles/testProto.dir/flags.make
+CMakeFiles/testProto.dir/setValue.cpp.o: ../setValue.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/cvrsg/JpHu/Github/ProtoExample/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/testProto.dir/parse.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/testProto.dir/parse.cpp.o -c /home/cvrsg/JpHu/Github/ProtoExample/parse.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/testProto.dir/setValue.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/testProto.dir/setValue.cpp.o -c /home/cvrsg/JpHu/Github/ProtoExample/setValue.cpp
 
-CMakeFiles/testProto.dir/parse.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testProto.dir/parse.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cvrsg/JpHu/Github/ProtoExample/parse.cpp > CMakeFiles/testProto.dir/parse.cpp.i
+CMakeFiles/testProto.dir/setValue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testProto.dir/setValue.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/cvrsg/JpHu/Github/ProtoExample/setValue.cpp > CMakeFiles/testProto.dir/setValue.cpp.i
 
-CMakeFiles/testProto.dir/parse.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testProto.dir/parse.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cvrsg/JpHu/Github/ProtoExample/parse.cpp -o CMakeFiles/testProto.dir/parse.cpp.s
+CMakeFiles/testProto.dir/setValue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testProto.dir/setValue.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/cvrsg/JpHu/Github/ProtoExample/setValue.cpp -o CMakeFiles/testProto.dir/setValue.cpp.s
 
-CMakeFiles/testProto.dir/parse.cpp.o.requires:
-.PHONY : CMakeFiles/testProto.dir/parse.cpp.o.requires
+CMakeFiles/testProto.dir/setValue.cpp.o.requires:
+.PHONY : CMakeFiles/testProto.dir/setValue.cpp.o.requires
 
-CMakeFiles/testProto.dir/parse.cpp.o.provides: CMakeFiles/testProto.dir/parse.cpp.o.requires
-	$(MAKE) -f CMakeFiles/testProto.dir/build.make CMakeFiles/testProto.dir/parse.cpp.o.provides.build
-.PHONY : CMakeFiles/testProto.dir/parse.cpp.o.provides
+CMakeFiles/testProto.dir/setValue.cpp.o.provides: CMakeFiles/testProto.dir/setValue.cpp.o.requires
+	$(MAKE) -f CMakeFiles/testProto.dir/build.make CMakeFiles/testProto.dir/setValue.cpp.o.provides.build
+.PHONY : CMakeFiles/testProto.dir/setValue.cpp.o.provides
 
-CMakeFiles/testProto.dir/parse.cpp.o.provides.build: CMakeFiles/testProto.dir/parse.cpp.o
+CMakeFiles/testProto.dir/setValue.cpp.o.provides.build: CMakeFiles/testProto.dir/setValue.cpp.o
 
 CMakeFiles/testProto.dir/test.pb.cc.o: CMakeFiles/testProto.dir/flags.make
 CMakeFiles/testProto.dir/test.pb.cc.o: ../test.pb.cc
@@ -97,13 +97,13 @@ CMakeFiles/testProto.dir/test.pb.cc.o.provides.build: CMakeFiles/testProto.dir/t
 
 # Object files for target testProto
 testProto_OBJECTS = \
-"CMakeFiles/testProto.dir/parse.cpp.o" \
+"CMakeFiles/testProto.dir/setValue.cpp.o" \
 "CMakeFiles/testProto.dir/test.pb.cc.o"
 
 # External object files for target testProto
 testProto_EXTERNAL_OBJECTS =
 
-testProto: CMakeFiles/testProto.dir/parse.cpp.o
+testProto: CMakeFiles/testProto.dir/setValue.cpp.o
 testProto: CMakeFiles/testProto.dir/test.pb.cc.o
 testProto: CMakeFiles/testProto.dir/build.make
 testProto: CMakeFiles/testProto.dir/link.txt
@@ -114,7 +114,7 @@ testProto: CMakeFiles/testProto.dir/link.txt
 CMakeFiles/testProto.dir/build: testProto
 .PHONY : CMakeFiles/testProto.dir/build
 
-CMakeFiles/testProto.dir/requires: CMakeFiles/testProto.dir/parse.cpp.o.requires
+CMakeFiles/testProto.dir/requires: CMakeFiles/testProto.dir/setValue.cpp.o.requires
 CMakeFiles/testProto.dir/requires: CMakeFiles/testProto.dir/test.pb.cc.o.requires
 .PHONY : CMakeFiles/testProto.dir/requires
 

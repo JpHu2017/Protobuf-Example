@@ -111,29 +111,29 @@ testProto/fast:
 	$(MAKE) -f CMakeFiles/testProto.dir/build.make CMakeFiles/testProto.dir/build
 .PHONY : testProto/fast
 
-parse.o: parse.cpp.o
-.PHONY : parse.o
+setValue.o: setValue.cpp.o
+.PHONY : setValue.o
 
 # target to build an object file
-parse.cpp.o:
-	$(MAKE) -f CMakeFiles/testProto.dir/build.make CMakeFiles/testProto.dir/parse.cpp.o
-.PHONY : parse.cpp.o
+setValue.cpp.o:
+	$(MAKE) -f CMakeFiles/testProto.dir/build.make CMakeFiles/testProto.dir/setValue.cpp.o
+.PHONY : setValue.cpp.o
 
-parse.i: parse.cpp.i
-.PHONY : parse.i
+setValue.i: setValue.cpp.i
+.PHONY : setValue.i
 
 # target to preprocess a source file
-parse.cpp.i:
-	$(MAKE) -f CMakeFiles/testProto.dir/build.make CMakeFiles/testProto.dir/parse.cpp.i
-.PHONY : parse.cpp.i
+setValue.cpp.i:
+	$(MAKE) -f CMakeFiles/testProto.dir/build.make CMakeFiles/testProto.dir/setValue.cpp.i
+.PHONY : setValue.cpp.i
 
-parse.s: parse.cpp.s
-.PHONY : parse.s
+setValue.s: setValue.cpp.s
+.PHONY : setValue.s
 
 # target to generate assembly for a file
-parse.cpp.s:
-	$(MAKE) -f CMakeFiles/testProto.dir/build.make CMakeFiles/testProto.dir/parse.cpp.s
-.PHONY : parse.cpp.s
+setValue.cpp.s:
+	$(MAKE) -f CMakeFiles/testProto.dir/build.make CMakeFiles/testProto.dir/setValue.cpp.s
+.PHONY : setValue.cpp.s
 
 test.pb.o: test.pb.cc.o
 .PHONY : test.pb.o
@@ -168,9 +168,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... testProto"
-	@echo "... parse.o"
-	@echo "... parse.i"
-	@echo "... parse.s"
+	@echo "... setValue.o"
+	@echo "... setValue.i"
+	@echo "... setValue.s"
 	@echo "... test.pb.o"
 	@echo "... test.pb.i"
 	@echo "... test.pb.s"
